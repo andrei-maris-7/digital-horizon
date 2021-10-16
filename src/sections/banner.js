@@ -2,8 +2,8 @@
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import BannerImg from "assets/background-img2.png";
-// import ShapeLeft from "assets/shape-left.png";
-// import ShapeRight from "assets/shape-right.png";
+import ShapeLeft from "assets/shape-left.png";
+import ShapeRight from "assets/shape-right.png";
 
 export default function Banner() {
   return (
