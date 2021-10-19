@@ -12,8 +12,7 @@ import {
 } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
-const ModalVideo = require("react-modal-video");
-// import ModalVideo from "react-modal-video/lib/index.js";
+import ModalVideo from "react-modal-video/lib/index.js";
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "assets/business-success.png";
@@ -92,12 +91,12 @@ export default function WhyDigital() {
           </Grid>
         </Box>
       </Container>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="BPK_qzeH_yk"
         onClose={() => setVideoOpen(false)}
-      />
+      /> */}
     </section>
   );
 }
