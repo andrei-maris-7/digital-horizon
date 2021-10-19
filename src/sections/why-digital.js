@@ -12,7 +12,8 @@ import {
 } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
-import ModalVideo from "react-modal-video/lib/index.js";
+const ModalVideo = require("react-modal-video");
+// import ModalVideo from "react-modal-video/lib/index.js";
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "assets/business-success.png";
