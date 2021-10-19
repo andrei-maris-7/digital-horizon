@@ -2,5 +2,6 @@ node_modules
 .next
 package-lock.json
 package-initial.json
+next-sitemap.js
 out
 README.md
