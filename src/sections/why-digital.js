@@ -91,12 +91,12 @@ export default function WhyDigital() {
           </Grid>
         </Box>
       </Container>
-      {/* <ModalVideo
+      <ModalVideo
         channel="youtube"
         isOpen={videoOpen}
         videoId="BPK_qzeH_yk"
         onClose={() => setVideoOpen(false)}
-      /> */}
+      />
     </section>
   );
 }
