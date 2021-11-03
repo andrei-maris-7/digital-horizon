@@ -15,7 +15,7 @@ const data = [
     id: 1,
     title: "Excellent Collaboration",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus laboriosam consequuntur, in eos culpa nesciunt. Nihil, placeat. Aliquam, illum? Officiis?",
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus laborisam consequuntur, in eos culpa nesciunt. Nihil, placeat. Aliquam, illum? Officiis?",
     avatar: Avatar1,
     name: "Petra Johnson",
     designation: "@petra.johnson",
