@@ -12,6 +12,7 @@ import {
 } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import TextFeature from "components/text-feature";
+
 import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
