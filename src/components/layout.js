@@ -21,10 +21,7 @@ export default function Layout({ children }) {
   return (
     <React.Fragment>
       <Head>
-        <link
-          rel="shortcut icon"
-          href="../../public/digital-horizon-logo.png"
-        />
+        <link rel="shortcut icon" href="/digital-horizon-logo.png" />
       </Head>
       <Sticky innerZ={1001} top={0} onStateChange={handleStateChange}>
         <Header className={`${isSticky ? "sticky" : "unSticky"}`} />
